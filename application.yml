@@ -4,11 +4,11 @@
     - dev
 ---
 spring:
-  profiles: dev
+  profiles: dev   #开发环境
   application:
-    name: 
+    name: microservicecloud-config-bdqn-dev
 ---
 spring:
-  profiles: test
+  profiles: test  #测试环境
   application:
-    name: 
+    name: microservicecloud-config-bdqn-test
